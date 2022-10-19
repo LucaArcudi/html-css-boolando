@@ -12,8 +12,10 @@ body{
     font-family: sans-serif;
 }
 
+
+
 section{
-    padding: 0 15%;
+    padding: 0 12.3%;
 }
 
 /* Header */
@@ -25,6 +27,7 @@ section.header-container{
     justify-content: space-between;
     align-items: center;
     color: #FFFFFF;
+    /* position: fixed; */
 }
 
 div.header-menu span{
@@ -38,24 +41,102 @@ div.header-logo img{
 
 /* Main */
 
+
+
 section.main-container{
     background-color: #FFFFFF;
 }
 
 main>section:first-child{
     padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 div.container{
     margin: 1rem;
     height: 40rem;
     flex-basis: calc(100% / 3);
-    background-color: #E1E1E1;
+    background-color: #ffffff;
     justify-content: space-between;
+    background-image: url(../img/boolando.png);
+    position: relative;
+}
+
+div.container1{
+    background-position: 18.5% 12%;
+}
+
+div.container2{
+    background-position: 50% 12%;
+}
+
+div.container3{
+    background-position: 81.6% 12%;
+}
+
+div.container4{
+    background-position: 18.5% 79.5%;
+}
+
+div.container5{
+    background-position: 50% 79.5%;
+}
+
+div.container6{
+    background-position: 81.6% 79.5%;
+}
+
+
+
+span.tag{
+    padding: 0.37rem 0.7rem;
+    font-size: 0.8rem;
+    font-weight:bold;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+span.discount{
+    background-color: red;
+    left: 0rem;
+    bottom: 2.45rem;
+}
+
+span.sustainability{
+    background-color: green;
+    bottom: 2.45rem;
+    left: 3.4rem;
+}
+
+span.sustainability1{
+    bottom: 2.45rem;
+    left: 0rem;
+}
+
+span.heart{
+    background-color: #FFFFFF;
+    font-size: 2.2rem;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 1%;
+    right: 0%;
 }
 
 div.product-info span{
     display: block;
+    position: absolute;
+}
+
+span.brand-name{
+    top: 100%;
+}
+
+span.clothes{
+    top: 103%;
+}
+
+span.price{
+    top: 106%;
 }
 
 /* Footer */
@@ -66,4 +147,10 @@ section.footer-container{
     background-color: #1A1A1A;
     justify-content: space-between;
     align-items: center;
+    margin-top: 5rem;
+    color: #FFFFFF;
+}
+
+footer span{
+    display: block;
 }
