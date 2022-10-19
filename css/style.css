@@ -24,6 +24,16 @@ section.header-container{
     background-color: #FF6900;
     justify-content: space-between;
     align-items: center;
+    color: #FFFFFF;
+}
+
+div.header-menu span{
+    margin: 0.2rem;
+    font-weight: bold;
+}
+
+div.header-logo img{
+    height: 2rem;
 }
 
 /* Main */
