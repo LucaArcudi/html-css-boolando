@@ -17,10 +17,28 @@ section{
 }
 
 /* Header */
+
 section.header-container{
     display: flex;
     height: 5rem;
     background-color: aqua;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Main */
+
+section.main-container{
+    background-color: blueviolet;
+}
+
+main>section:first-child{
+    padding-top: 2.5rem;
+}
+
+div.container{
+    margin: 1rem;
+    height: 40rem;
+    flex-basis: calc(100% / 3);
+    background-color: blue;
 }
