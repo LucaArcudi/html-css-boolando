@@ -7,3 +7,20 @@
 .flex{
     display: flex;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+section{
+    padding: 0 15%;
+}
+
+/* Header */
+section.header-container{
+    display: flex;
+    height: 5rem;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+}
