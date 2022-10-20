@@ -54,10 +54,26 @@ main>section:first-child{
 div.container{
     margin: 1rem;
     height: 40rem;
-    flex-basis: calc(100% / 3);
-    background-color: #6b6b6b;
+    flex-basis: calc(100% / 3 - 2.5rem);
+    background-color: #d4d4d4;
     justify-content: space-between;
     position: relative;
+}
+
+div.container img{
+    height: 40rem;
+}
+
+div.container:hover img{
+    display: none;
+}
+
+div.container img.hover-image{
+    display: none;
+}
+
+div.container:hover img.hover-image{
+    display: inline-block;
 }
 
 
@@ -81,6 +97,9 @@ span.sustainability{
     left: 3.6rem;
 }
 
+span.sustainability1{
+    left: 0;
+}
 
 
 span.heart{
