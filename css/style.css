@@ -20,6 +20,7 @@ section{
 
 /* Header */
 
+
 section.header-container{
     display: flex;
     height: 5rem;
@@ -27,7 +28,6 @@ section.header-container{
     justify-content: space-between;
     align-items: center;
     color: #FFFFFF;
-    /* position: fixed; */
 }
 
 div.header-menu span{
@@ -40,7 +40,6 @@ div.header-logo img{
 }
 
 /* Main */
-
 
 
 section.main-container{
@@ -79,13 +78,10 @@ span.discount{
 span.sustainability{
     background-color: green;
     bottom: 2.45rem;
-    left: 3.4rem;
+    left: 3.6rem;
 }
 
-span.sustainability1{
-    bottom: 2.45rem;
-    left: 0rem;
-}
+
 
 span.heart{
     background-color: #FFFFFF;
@@ -107,10 +103,15 @@ span.brand-name{
 
 span.clothes{
     top: 103%;
+    font-weight: 600    ;
 }
 
 span.price{
     top: 106%;
+}
+
+del{
+    color: red;
 }
 
 /* Footer */
@@ -127,4 +128,16 @@ section.footer-container{
 
 footer span{
     display: block;
+}
+
+div.footer-link a,
+div.footer-info a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+div.footer-link li,
+div.footer-info li{
+    list-style-type: none;
+    margin-right: 0.5rem;
 }
