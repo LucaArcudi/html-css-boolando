@@ -44,7 +44,7 @@ div.header-logo img{
 
 
 section.main-container{
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 main>section:first-child{
@@ -56,36 +56,10 @@ div.container{
     margin: 1rem;
     height: 40rem;
     flex-basis: calc(100% / 3);
-    background-color: #ffffff;
+    background-color: #6b6b6b;
     justify-content: space-between;
-    background-image: url(../img/boolando.png);
     position: relative;
 }
-
-div.container1{
-    background-position: 18.5% 12%;
-}
-
-div.container2{
-    background-position: 50% 12%;
-}
-
-div.container3{
-    background-position: 81.6% 12%;
-}
-
-div.container4{
-    background-position: 18.5% 79.5%;
-}
-
-div.container5{
-    background-position: 50% 79.5%;
-}
-
-div.container6{
-    background-position: 81.6% 79.5%;
-}
-
 
 
 span.tag{
